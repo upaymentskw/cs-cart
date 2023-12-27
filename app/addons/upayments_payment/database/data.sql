@@ -1,0 +1,1 @@
+INSERT INTO ?:payment_processors (processor, processor_script, processor_template, admin_template, callback, type, addon) VALUES ('UPayments Payment', 'upayments_payment_processor.php', 'addons/upayments_payment/views/orders/components/payments/upayments.tpl', '', 'N', 'P', 'upayments_payment');

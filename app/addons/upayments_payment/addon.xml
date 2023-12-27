@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<addon scheme='3.0' edition_type="ROOT,ULT:VENDOR">
+    <id>upayments_payment</id>
+    <version>2.0.0</version>
+    <name>UPayments</name>
+    <description>pay with UPayments Payment</description>
+    <priority>100500</priority>
+    <status>active</status>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+					<item id="merchant_api_key">
+                        <name>API Key</name>
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+
+                    <item id="test_mode">
+                        <name>Test mode</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+
+                    <item id="description_mode">
+                        <name>Description mode</name>
+                        <type>selectbox</type>
+                        <default_value>short_description</default_value>
+                        <variants>
+                            <item id="short_description"><name>Short Description</name>
+                            </item>
+                            <item id="attributes"><name>Product Attributes</name>
+                            </item>
+                        </variants>
+                    </item>
+
+                    <item id="upayments_status_map_settings">
+                        <type>template</type>
+                        <default_value>upayments_statuses_map.tpl</default_value>
+                    </item>
+
+
+                    <item id="upayments_logo_uploader_settings">
+                        <type>template</type>
+                        <default_value>upayments_logo_uploader.tpl</default_value>
+                    </item>
+
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item type="file">database/data.sql</item>
+    </queries>
+    <functions>
+        <item for="uninstall">fn_upayments_delete_payment_processors</item>
+    </functions>
+</addon>
+

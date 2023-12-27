@@ -1,0 +1,69 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Languages::upayments_ipn_transaction_status"
+msgid "UPayments Status"
+msgstr "UPayments Status"
+
+msgctxt "Languages::process"
+msgid "Process"
+msgstr "Process"
+
+msgctxt "Languages::on_hold"
+msgid "On Hold"
+msgstr "On Hold"
+
+msgctxt "Languages::canceled"
+msgid "Canceled"
+msgstr "Canceled"
+
+msgctxt "Languages::not_finished"
+msgid "Not Finished"
+msgstr "Not Finished"
+
+msgctxt "Languages::ttc_pending"
+msgid "Pending in UPayments"
+msgstr "Pending in UPayments"
+
+msgctxt "Languages::ttc_completed"
+msgid "Completed in UPayments"
+msgstr "Completed in UPayments"
+
+msgctxt "Languages::ttc_process"
+msgid "Process in UPayments"
+msgstr "Process in UPayments"
+
+msgctxt "Languages::ttc_on_hold"
+msgid "On Hold in UPayments"
+msgstr "On Hold in UPayments"
+
+msgctxt "Languages::ttc_canceled"
+msgid "Canceled in UPayments"
+msgstr "Canceled in UPayments"
+
+msgctxt "Languages::ttc_not_finished"
+msgid "Not Finished in UPayments"
+msgstr "Not Finished in UPayments"
+
+msgctxt "Languages::upayments_logo"
+msgid "Upload logo for Checkout Page"
+msgstr "Upload logo for Checkout Page"
+
+msgctxt "Languages::upayments_callback_url"
+msgid "UPayments Callback URL"
+msgstr "UPayments Callback URL"
+
+msgctxt "Languages::upayments_callback_url_description"
+msgid "Copy this URL and send to UPayments"
+msgstr "Copy this URL and send to UPayments"
+
+msgctxt "Languages::short_description"
+msgid "Short Description"
+msgstr "Short Description"
+
+msgctxt "Languages::full_description"
+msgid "Full Description"
+msgstr "Full Description"
