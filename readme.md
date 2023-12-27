@@ -1,8 +1,13 @@
 === UPayments Payment Gateway for CSCart ===
+
 Contributors: UPayments
+
 Tags: UPayments payments, cs-cart, payment gateway, UPayments, pay with UPayments, credit card, knet, samsung pay, Apple Pay, Google Pay
+
 Requires at least: 4.17.1
+
 Stable tag: 2.0.0
+
 License: MIT
 
 ## Prerequisites
